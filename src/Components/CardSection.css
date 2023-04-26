@@ -1,0 +1,18 @@
+.page{    
+background: #F1F0F9;
+ position: relative;
+}
+.inkpot{
+    position: relative;
+    z-index: 1;
+    /* background-image: url("../images//inkpot.png"); */
+    /* background-repeat: no-repeat; */
+    transform: translateY(+55%);
+    /* position: absolute; */
+    /* width: 380px; */
+    /* height: 315px; */
+    /* left: 950px; */
+    /* top: 3193px; */
+    /* mix-blend-mode: luminosity; */
+
+}
