@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import React from 'react'
 import Edit from "../images/Edit.png"
 import Send from "../images/Send.png"
