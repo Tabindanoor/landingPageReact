@@ -1,0 +1,12 @@
+.page{    
+background: #F1F0F9;
+ position: relative;
+}
+.inkpot{
+    /* position: relative; */
+    z-index: 1;
+    transform: translateY(+55%);
+}
+.border{
+    border-radius: 8px;
+} 

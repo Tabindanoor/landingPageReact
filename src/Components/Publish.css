@@ -1,0 +1,62 @@
+.upper{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.center{
+    margin: auto;
+    display: block;
+}
+.upper h2{
+font-family: 'Prata';
+font-style: normal;
+font-weight: 400;
+/* font-size: 32px; */
+/* line-height: 120%; */
+text-align: center;
+
+}
+.contact{
+/* padding: 14px 48px; */
+/* width: 244px; */
+/* height: 64px; */
+background: linear-gradient(90deg, #6B60EB 0%, #CE5FE6 100%);
+/* border-radius: 8px; */
+/* font-weight: 600; */
+/* font-size: 24px; */
+}
+.works{
+/* justify-content: center; */
+/* align-items: center; */
+/* padding: 14px 48px; */
+/* gap: 16px; */
+background: linear-gradient(90deg, #6B60EB 0%, #CE5FE6 100%);
+/* border-radius: 8px; */
+}
+.purple{
+    /* border-radius: 24px; */
+}
+
+
+/* Responsive Classes */
+@media (max-width: 768px) {
+
+    .works{
+        /* display: flex; */
+        /* justify-content: center; */
+        /* align-items: center; */
+        /* padding: 14px 4px; */
+        /* gap: 16px; */
+        /* background: linear-gradient(90deg, #6B60EB 0%, #CE5FE6 100%); */
+        /* border-radius: 8px; */
+        }
+  }
+  .inkpots{
+    /* background-image: url("../images//inkpot.png");
+    background-repeat: no-repeat;
+    transform: translateY(-30%);
+    position: absolute;
+    width: 380px;
+    left: 950px;
+    mix-blend-mode: luminosity; */
+  }
