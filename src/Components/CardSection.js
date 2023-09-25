@@ -10,16 +10,16 @@ import "../Components/CardSection.css"
 const CardSection = () => {
   return ( 
   
-    <div className='flex-col'>
+    <div className='flex-col bg-[#F6F6F6] '>
 
     <div className=" mb-10  pb-5  mt-[50px] w-[100%] mx-auto relative inkpot">
         <img
           src={inkpot}
           alt="inkpot"
-          className="absolute  -mt-10   sm:-mt-24 right-0 sm:right-7 max-sm:w-[60%]"
+          className="absolute  -mt-20   2xl:w-[380px] h-[315px]  right-0 sm:right-7 max-sm:w-[60%]"
         />
     </div>
-    <div className='page bg-slate-200 mb cards'>
+    <div className='page  mb cards'>
        
    
       <div className='hidden sm:block'>
@@ -32,7 +32,7 @@ const CardSection = () => {
        
        <br /><br /><br />
                     <div className='flex  justify-center flex-wrap gap-x-10 gap-y-20 max-sm:gap-y-10 mx-6  lg:px-10'>
-                        <div className='bg-white   sm:p-10 border p-7 w-[380px]  md:h-[388px]'>
+                        <div className='bg-white    sm:p-8 border p-10  w-[380px]  md:h-[388px]'>
                            
                             <img src={Edit} alt="" />
                             <h1 className='font-serif text-[#21233B] text-[32px] py-5  sm:text-[40px] font-normal '>Author Cohorts</h1>
@@ -42,7 +42,7 @@ const CardSection = () => {
                                 efficitur aliquam vel accumsan elit.</h1>
                         </div>
 
-                        <div className='bg-white   sm:p-10 border p-7 w-[380px]  md:h-[388px]'>
+                        <div className='bg-white   sm:p-8 border p-10 w-[380px]  md:h-[388px]'>
                             
                             <img src={Send} alt="" />
                             <h1 className='font-serif text-[#21233B] text-[32px] py-5  sm:text-[40px] font-normal '>Early Access</h1>
@@ -52,7 +52,7 @@ const CardSection = () => {
                                 efficitur aliquam vel accumsan elit.</h1>
                         </div> 
                         
-                        <div className='bg-white   sm:p-10 border p-7 w-[380px]  md:h-[388px]'>
+                        <div className='bg-white    sm:p-8 border p-10  w-[380px]  md:h-[388px]'>
                            
                             <img src={Document} alt="" />
                             <h1 className='font-serif text-[#21233B] text-[32px] py-5  sm:text-[40px] font-normal'>Platform Reader</h1>
@@ -62,7 +62,7 @@ const CardSection = () => {
                                 efficitur aliquam vel accumsan elit.</h1>
                         </div> 
 
-                        <div className='bg-white   sm:p-10 border p-7 w-[380px]  md:h-[388px]'>
+                        <div className='bg-white    sm:p-8 border p-10  w-[380px]  md:h-[388px]'>
                             
                             <img src={EditSquare} alt="" />
                             <h1 className='font-serif text-[#21233B] text-[32px] py-5  sm:text-[40px] font-normal'>Author Cohorts</h1>
@@ -72,7 +72,7 @@ const CardSection = () => {
                                 efficitur aliquam vel accumsan elit.</h1>
                         </div>
 
-                         <div className='bg-white   sm:p-10 border p-7 w-[380px]  md:h-[388px]'>
+                         <div className='bg-white    sm:p-8 border p-10  w-[380px]  md:h-[388px]'>
                             
                             <img src={Paper} alt="" />
                             <h1 className='font-serif text-[#21233B] text-[32px] py-5  sm:text-[40px] font-normal'>Early Access</h1>

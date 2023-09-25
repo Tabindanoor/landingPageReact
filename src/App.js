@@ -10,7 +10,7 @@ import Publish from './Components/Publish';
 
 function App() {
   return (
-    <div>
+    <div className='bg-[#F6F6F6]'>
       <Navbar/>
       <FeatuedWork/>
       <Publish/>
